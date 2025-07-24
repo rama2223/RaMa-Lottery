@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rama Lottery</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #1e1e1e, #000);
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #ff0000;
+      padding: 1rem;
+      text-align: center;
+    }
+    .vip {
+      background: #111;
+      border-radius: 1rem;
+      padding: 1rem;
+      margin: 2rem;
+    }
+    .vip h2 {
+      text-align: center;
+      color: gold;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      color: white;
+    }
+    th, td {
+      border: 1px solid #555;
+      padding: 0.75rem;
+      text-align: center;
+    }
+    th {
+      background-color: #222;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🎰 Rama Lottery</h1>
+    <p>Play. Win. Celebrate!</p>
+  </header>
+
+  <section class="vip">
+    <h2>🎖️ VIP Levels</h2>
+    <table>
+      <tr>
+        <th>Level</th>
+        <th>Total Wager</th>
+        <th>Level-Up Bonus</th>
+        <th>Monthly Bonus</th>
+        <th>Weekly Bonus</th>
+      </tr>
+      <tr><td>1</td><td>₹5000</td><td>₹250</td><td>₹100</td><td>₹25</td></tr>
+      <tr><td>2</td><td>₹15000</td><td>₹350</td><td>₹150</td><td>₹40</td></tr>
+      <tr><td>3</td><td>₹30000</td><td>₹500</td><td>₹200</td><td>₹60</td></tr>
+      <tr><td>4</td><td>₹50000</td><td>₹750</td><td>₹300</td><td>₹80</td></tr>
+      <tr><td>5</td><td>₹1,00,000</td><td>₹1000</td><td>₹400</td><td>₹100</td></tr>
+      <tr><td>6</td><td>₹1,50,000</td><td>₹1500</td><td>₹500</td><td>₹120</td></tr>
+      <tr><td>7</td><td>₹2,00,000</td><td>₹2000</td><td>₹600</td><td>₹150</td></tr>
+      <tr><td>8</td><td>₹3,00,000</td><td>₹3000</td><td>₹800</td><td>₹200</td></tr>
+      <tr><td>9</td><td>₹5,00,000</td><td>₹5000</td><td>₹1000</td><td>₹300</td></tr>
+      <tr><td>10</td><td>₹10,00,000</td><td>₹10000</td><td>₹2000</td><td>₹500</td></tr>
+    </table>
+  </section>
+</body>
+</html>
